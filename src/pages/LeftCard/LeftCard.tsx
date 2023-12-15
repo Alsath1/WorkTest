@@ -1,6 +1,6 @@
 import { useAppDispatch, useAppSelector } from 'src/hooks/redux';
 import { ProcentSlice } from 'src/store/reducers/ProcentSlice';
-import LeftBackgroungImg from './LeftBackgroungImg.svg';
+import LeftBackgroungImg from '/LeftBackgroungImg.svg';
 import styled from 'styled-components';
 
 import { NumberTitle } from './NumbersCof';

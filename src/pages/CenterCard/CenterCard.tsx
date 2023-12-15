@@ -1,6 +1,6 @@
 import { useAppSelector } from 'src/hooks/redux';
 import { GlobalSvgSelector } from 'src/img/GlobalSvgSelector';
-import CenterBackgroungImg from './CenterBackgroungImg.svg';
+import CenterBackgroungImg from '/CenterBackgroungImg.svg';
 import styled from 'styled-components';
 
 // центральный блок

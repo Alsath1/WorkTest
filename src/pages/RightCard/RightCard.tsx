@@ -1,5 +1,5 @@
 import { GlobalSvgSelector } from 'src/img/GlobalSvgSelector';
-import LeftBackgroungImg from './LeftBackgroungImg.svg';
+import LeftBackgroungImg from '/RightBackgroungImg.svg';
 import styled from 'styled-components';
 
 const RightCont = styled.div`
