@@ -1,7 +1,8 @@
 import { useAppSelector } from 'src/hooks/redux';
 import { GlobalSvgSelector } from 'src/img/GlobalSvgSelector';
-import styled from 'styled-components';
 import CenterBackgroungImg from './CenterBackgroungImg.svg';
+import styled from 'styled-components';
+
 // центральный блок
 const CenterCont = styled.div`
 	width: 336px;
