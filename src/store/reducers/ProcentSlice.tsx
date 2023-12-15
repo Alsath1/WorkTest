@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 interface UserState {
-	count: string;
+	count: any;
 }
 
 const initialState: UserState = {
@@ -13,7 +13,7 @@ export const ProcentSlice = createSlice({
 	initialState,
 	reducers: {
 		CurrentCount(state, action) {
-			state.count = action.payload;
+			state.count = action.payload.toString();
 		}
 	}
 });
